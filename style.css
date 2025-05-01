@@ -1,0 +1,46 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    background: #111;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    text-align: center;
+    padding: 1rem;
+    background: #222;
+  }
+  
+  input {
+    padding: 0.5rem;
+    width: 200px;
+  }
+  
+  button {
+    padding: 0.5rem;
+    background: #ffc107;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #moviesContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1rem;
+    padding: 1rem;
+  }
+  
+  .movie-card {
+    background: #333;
+    padding: 1rem;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  .movie-card img {
+    max-width: 100%;
+    border-radius: 4px;
+  }
+  
